@@ -1,0 +1,23 @@
+{
+  "name": "sass-grunt-livereload",
+  "version": "0.1.0",
+  "homepage": "https://github.com/blackfalcon/sassGruntLivereload",
+  "authors": [
+    "Dale Sande <dale.sande@gmail.com>"
+  ],
+  "description": "process Sass with Grunt",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "sass",
+    "grunt",
+    "livereload"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
