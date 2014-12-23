@@ -9,15 +9,12 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+      options: {
+        livereload: true,
+      },
       sass: {
         files: ['sass/**/*.sass', 'sass/**/*.scss'],
         tasks: ['sass']
-      },
-      livereload: {
-        files: ['stylesheets/*.css'],
-        options: {
-          livereload: true
-        }
       }
     }
   });
